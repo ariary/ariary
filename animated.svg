@@ -35,7 +35,17 @@
 			  border-right: 3px solid;
 			  font-family: monospace;
 			  font-size: 2em;
-			}			
+			}
+			.typing-demo2 {
+			  width: 11ch;
+				animation-delay: 3s
+			  animation: typing 2s steps(22);
+			  white-space: nowrap;
+			  overflow: hidden;
+			  border-right: 3px solid;
+			  font-family: monospace;
+			  font-size: 2em;
+			}
 			</style>
 			<div class="wrapper">
     				<div class="typing-demo">
@@ -43,8 +53,8 @@
     				</div>
 			</div>
 			<div class="wrapper2">
-    				<div class="typing-demo">
-      				$ su ariary	  
+    				<div class="typing-demo2">
+      				$ su ariary5	  
     				</div>
 			</div>
 		</div>
