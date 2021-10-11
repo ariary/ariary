@@ -2,110 +2,40 @@
   <foreignObject width="800px" height="400px">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style type="text/css">
-
-.container {
-  padding: 0;
-  margin: 0; 
+        .wrapper {
   height: 100vh;
-  background: #18191f;
-  font-family: 'Poppins', sans-serif;
+  /*This part is important for centering*/
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-ul {
-  position: relative;
-  display: flex;
-}
-
-li {
-  list-style: none;
-}
-
-label {
-  position: relative;
-}
-
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 80px;
-  width: 80px;
-  z-index: 100;
-}
-
-div {
-  position: relative;
-  height: 80px;
-  width: 80px;
-  background: #18191f;
-  color: #555;
-  display: flex;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 46px;
-  cursor: pointer;
-  margin: 0 4px;
-  border-radius: 20px;
-  box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
-    4px 4px 6px rgba(0, 0, 0, 0.2),
-    inset -1px -1px 4px rgba(255, 255, 255, 0.05),
-    inset 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-
-
-input[type="checkbox"]:checked ~ div {
-  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
-    inset 4px 4px 6px rgba(0, 0, 0, 0.2);
-  color: yellow;
-  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
-  animation: glow 1.5s linear infinite;
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-@keyframes glow {
-  0% {
-    filter: hue-rotate(0deg);
+@keyframes typing {
+  from {
+    width: 0
   }
-  100% {
-    filter: hue-rotate(360deg);
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
 }
       </style>
-      <div id="container>
-      <ul>
-  <li>
-    <input type="checkbox" />
-    <div>P</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>R</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>A</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>T</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>H</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>A</div>
-  </li>
-  <li>
-    <input type="checkbox" />
-    <div>M</div>
-  </li>
-</ul>
-                          </div>
+ <div class="wrapper">
+    <div class="typing-demo">
+      This is a typing demo.
+    </div>
+</div>
   </foreignObject>
 </svg>
