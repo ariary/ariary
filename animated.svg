@@ -38,7 +38,8 @@
 			}
 			.cli2 {
 			  width: 11ch;
-			  animation-delay: 3s;
+			    animation-duration: 3s;
+  				animation-delay: 15s;
 			  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
 			  white-space: nowrap;
 			  overflow: hidden;
@@ -54,7 +55,7 @@
 			</div>
 			<div class="wrapper2">
     				<div class="cli2">
-      				$ su ariary	  
+      				# ./print	  
     				</div>
 			</div>
 		</div>
