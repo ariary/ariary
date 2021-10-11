@@ -21,7 +21,7 @@
 			  justify-content: center;
 			}
 			.wrapper2 {
-			  height: 50vh;
+			  height: 10vh;
 			  /*This part is important for centering*/
 			  display: flex;
 			  align-items: center;
