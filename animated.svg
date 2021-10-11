@@ -20,6 +20,13 @@
 			  align-items: center;
 			  justify-content: center;
 			}
+			.wrapper2 {
+			  height: 10vh;
+			  /*This part is important for centering*/
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			}
 			.typing-demo {
 			  width: 11ch;
 			  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
@@ -31,6 +38,11 @@
 			}			
 			</style>
 			<div class="wrapper">
+    				<div class="typing-demo">
+      				$ su ariary	  
+    				</div>
+			</div>
+			<div class="wrapper2">
     				<div class="typing-demo">
       				$ su ariary	  
     				</div>
