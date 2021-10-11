@@ -20,13 +20,6 @@
 			  align-items: center;
 			  justify-content: center;
 			}
-			.wrapper2 {
-			  height: 10vh;
-			  /*This part is important for centering*/
-			  display: flex;
-			  align-items: center;
-			  justify-content: center;
-			}
 			.typing-demo {
 			  width: 11ch;
 			  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
@@ -35,27 +28,11 @@
 			  border-right: 3px solid;
 			  font-family: monospace;
 			  font-size: 2em;
-			}
-			.cli2 {
-			  width: 11ch;
-			    animation-duration: 3s;
-  				animation-delay: 15s;
-			  animation: typing steps(22), blink .5s step-end infinite alternate;
-			  white-space: nowrap;
-			  overflow: hidden;
-			  border-right: 3px solid;
-			  font-family: monospace;
-			  font-size: 2em;
-			}				
+			}			
 			</style>
 			<div class="wrapper">
     				<div class="typing-demo">
       				$ su ariary	  
-    				</div>
-			</div>
-			<div class="wrapper2">
-    				<div class="cli2">
-      				# ./print	  
     				</div>
 			</div>
 		</div>
