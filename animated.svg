@@ -21,7 +21,7 @@
 			  justify-content: center;
 			}
 			.typing-demo {
-			  width: 11ch;
+			  width: 38ch;
 			  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
 			  white-space: nowrap;
 			  overflow: hidden;
@@ -32,7 +32,7 @@
 			</style>
 			<div class="wrapper">
     				<div class="typing-demo">
-      				$ su ariary  
+      				$ su ariary  && ./print-github-profile
     				</div>
 			</div>
 		</div>
