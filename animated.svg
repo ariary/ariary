@@ -32,7 +32,7 @@
 			</style>
 			<div class="wrapper">
     				<div class="typing-demo">
-      				$ su ariary && ./print-github-repo	  
+      				$ su ariary  
     				</div>
 			</div>
 		</div>
