@@ -36,6 +36,16 @@
 			  font-family: monospace;
 			  font-size: 2em;
 			}
+			.cli2 {
+			  width: 11ch;
+			  animation-delay: 3s;
+			  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+			  white-space: nowrap;
+			  overflow: hidden;
+			  border-right: 3px solid;
+			  font-family: monospace;
+			  font-size: 2em;
+			}				
 			</style>
 			<div class="wrapper">
     				<div class="typing-demo">
@@ -43,7 +53,7 @@
     				</div>
 			</div>
 			<div class="wrapper2">
-    				<div class="typing-demo">
+    				<div class="cli2">
       				$ su ariary	  
     				</div>
 			</div>
