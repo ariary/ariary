@@ -116,12 +116,7 @@
 			</style>
 			<div class="wrapper">
     <div class="typing-demo">
-      $ su ariary
-	    
-      # ./print-welcome-message
-      Welcome in my profile
-      # 
-	  
+      $ su ariary	  
     </div>
 </div>
 		</div>
